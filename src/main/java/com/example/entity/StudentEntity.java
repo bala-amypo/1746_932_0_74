@@ -27,10 +27,13 @@ public class StudentEntity {
      public void setName(String name){
         this=this.name;
     }
-    public void getName(){
+    public String getName(){
         return this.name;
     }
     public void setEmail(String email ){
+        return this.name;
+    }
+    public String getEmail(String email ){
         return this.name;
     }
     public void setCgpa(Float cgpa ){
